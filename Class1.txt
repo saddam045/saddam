@@ -1,0 +1,30 @@
+public class ArthematicClass {
+  
+    public integer firstnumber = 1000;
+    public integer secondnumber = 50;
+    
+    public void Addition(){
+        system.debug('Addition Result is....' + (firstnumber + secondnumber));
+        if(firstnumber >1200){
+            System.debug('Greater');
+        }
+        else{
+            System.debug('Less');
+        }
+    }
+    public void Subtraction(){
+        system.debug('Subtraction Result is...' + (firstnumber - secondnumber));
+    }
+    public void Multiplication(){
+        system.debug('Multiplication Result is...' + (firstnumber * secondnumber));
+    }
+    public void Division(){
+        system.debug('Division Result is...' + (firstnumber / secondnumber));
+        
+    }
+    public void ShowMessaGE(){
+        System.debug('ShowMessage');
+    }
+    
+
+}
